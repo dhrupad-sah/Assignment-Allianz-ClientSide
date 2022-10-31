@@ -88,7 +88,7 @@ function App() {
             return;
         }
 
-        const response = await fetch("http://localhost:9000/api").then((res) =>
+        const response = await fetch("https://calculator-drag-n-drop.herokuapp.com/api").then((res) =>
             res.json()
         );
 
