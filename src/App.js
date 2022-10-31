@@ -129,7 +129,7 @@ function App() {
         }
 
         if (temp) {
-            prompt("Enter valid expression!");
+            alert("Enter valid expression!");
             return;
         }
         const noTwoOperatorTogether = (s) => {
@@ -165,7 +165,7 @@ function App() {
         }
 
         if (!test(expression.join(""))) {
-            prompt("Enter valid expression!");
+            alert("Enter valid expression!");
             return;
         }
 
