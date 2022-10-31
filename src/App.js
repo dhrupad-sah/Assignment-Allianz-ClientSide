@@ -85,7 +85,7 @@ function App() {
             comparator !== "<" &&
             !Number.isInteger(rhsInt)
         ) {
-            prompt("Enter valid expression!");
+            alert("Enter valid expression!");
             return;
         }
 
