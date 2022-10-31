@@ -3,6 +3,7 @@ import Operand from "./components/Operand";
 import Operator from "./components/Operator";
 import { useState } from "react";
 
+
 function App() {
     const [stoppedDragging, setStoppedDragging] = useState(true);
 
@@ -183,9 +184,9 @@ function App() {
             (comparator === "<" && result < rhsInt) ||
             (comparator === ">" && result > rhsInt)
         ) {
-            prompt("true");
+            alert("true");
         } else {
-            prompt("false");
+            alert("false");
         }
     };
 
