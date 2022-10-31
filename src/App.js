@@ -65,7 +65,7 @@ function App() {
         const draggableArea = document.querySelector(".draggableArea");
         const expression = [];
         if (draggableArea.childNodes.length < 2) {
-            prompt("Enter valid expression!");
+            alert("Enter valid expression!");
             return;
         }
         for (let i = 0; i < draggableArea.childNodes.length - 2; i++) {
