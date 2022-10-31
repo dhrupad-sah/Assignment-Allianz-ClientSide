@@ -1,0 +1,11 @@
+.operatorBox {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 1rem;
+    background-color: rgb(132, 2, 65);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

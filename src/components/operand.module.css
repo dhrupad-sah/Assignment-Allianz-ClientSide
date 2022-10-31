@@ -1,0 +1,11 @@
+.operandBox {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
